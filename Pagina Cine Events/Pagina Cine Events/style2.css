@@ -1,0 +1,77 @@
+
+.contener-Detalle{
+    width: 100%;
+    margin-top: 110px;
+    position: absolute;
+}
+.imgPeliculaDetalle{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    width: 25%;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    transform-origin: center;
+
+}
+.imgPeliculaDetalle:hover {
+    transform: scale(1.05);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    text-align: justify;
+}
+
+.tituloPelicula{
+    text-align: center;
+    width: 85%;
+    margin-top: 15px;
+    color: rgb(28, 34, 71);
+}
+
+.contenido{
+    float: left;
+}
+
+.columnaPelicula{
+    display: flex;
+    flex-direction: row;
+}
+
+.filaPelicula {
+    width: 40%;
+}
+
+.filaPelicula:nth-child(2), .filaPelicula:nth-child(3){
+    padding-left: 5%;
+}
+
+.calStar{
+    float: left;
+    width: 25%;
+    margin-left: 20px;
+}
+
+.chat {
+    background-color: rgb(133, 170, 250);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.chat h4{
+    margin-bottom: 5px;
+}
+
+.datoPelicula{
+    margin-top: 10px;
+    text-align: center;
+}
+.textoP{
+    margin-top: 20px;
+}
